@@ -25,7 +25,7 @@ public class browserClass {
 		switch(Browser) {
 		case "chrome":
 		WebDriverManager.chromedriver().setup();
-//		driver = new ChromeDriver();
+
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless=new");
 		options.addArguments("--no-sandbox");
