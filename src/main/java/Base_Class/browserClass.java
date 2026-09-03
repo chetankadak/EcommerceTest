@@ -1,5 +1,6 @@
 package Base_Class;
 
+import org.openqa.selenium.chrome.ChromeOptions;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
@@ -26,6 +27,11 @@ public class browserClass {
 		WebDriverManager.chromedriver().setup();
 //		driver = new ChromeDriver();
 		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless=new");
+		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-dev-shm-usage");
+		options.addArguments("--disable-gpu");
+		options.addArguments("--window-size=1920,1080");
 
         Map<String, Object> prefs = new HashMap<>();
 
