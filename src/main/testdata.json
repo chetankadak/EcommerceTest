@@ -1,0 +1,44 @@
+
+
+{
+    "logindetails": {
+        "username": "standard_user",
+        "password": "secret_sauce"
+    },
+	
+	"logindetails1" : {
+		"username": "wrong_user",
+		"password": "wrong_password"
+	},
+
+    "deliverydetails": {
+        "Firstname": "Chetan",
+		"Lastname" : "Kadak",
+        "ZipCode": "441123"
+		
+		
+    },
+	
+	"Checkoutdetails": {
+	        "Firstname": "Divyank",
+			"Lastname" : "Kadak",
+	        "ZipCode": "441123"
+			
+			
+	    },
+		
+
+		"Checkoutdetails1": {
+		        "Firstname": "",
+				"Lastname" : "",
+		        "ZipCode": ""
+				
+				
+		    },
+	
+	"Range": {
+		"Sortprice": "lohi"
+	}
+	
+	
+}

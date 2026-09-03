@@ -1,0 +1,14 @@
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/Base_Class/browserClass.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/Pages/SelectItem.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/Pages/homePage.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/Pages/login.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/com/selenium/selenium_automation/App.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/methods/commonMethods.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/testcase/TC_01.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/testcase/TC_02.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/testcase/TC_03.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/utility/AllureTestListener.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/utility/ConfigReader.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/utility/ExtentReportManager.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/utility/JsonUtils.java
+/home/altius/eclipse-workspace/Swag-Project/src/main/java/utility/Screenshot.java
