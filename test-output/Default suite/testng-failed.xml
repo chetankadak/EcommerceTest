@@ -6,7 +6,8 @@
       <class name="testcase.TC_02">
         <methods>
           <include name="setup"/>
-          <include name="MakeAppointment"/>
+          <include name="Buyclothes"/>
+          <include name="close"/>
         </methods>
       </class> <!-- testcase.TC_02 -->
     </classes>
