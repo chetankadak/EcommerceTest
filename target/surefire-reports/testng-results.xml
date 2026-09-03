@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-03T17:40:00 IST" name="Suite" finished-at="2026-09-03T17:40:29 IST" duration-ms="29223">
+  <suite started-at="2026-09-03T17:46:20 IST" name="Suite" finished-at="2026-09-03T17:46:48 IST" duration-ms="27620">
     <groups>
     </groups>
-    <test started-at="2026-09-03T17:40:00 IST" name="Test" finished-at="2026-09-03T17:40:29 IST" duration-ms="29223">
+    <test started-at="2026-09-03T17:46:20 IST" name="Test" finished-at="2026-09-03T17:46:48 IST" duration-ms="27620">
       <class name="testcase.TC_03">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_03@24569dba]" started-at="2026-09-03T17:40:16 IST" name="setup" finished-at="2026-09-03T17:40:17 IST" duration-ms="1181" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_03@24569dba]" started-at="2026-09-03T17:46:35 IST" name="setup" finished-at="2026-09-03T17:46:36 IST" duration-ms="818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MakeAppointment()[pri:0, instance:testcase.TC_03@24569dba]" started-at="2026-09-03T17:40:17 IST" name="MakeAppointment" finished-at="2026-09-03T17:40:29 IST" duration-ms="11784" status="FAIL">
+        <test-method signature="MakeAppointment()[pri:0, instance:testcase.TC_03@24569dba]" started-at="2026-09-03T17:46:36 IST" name="MakeAppointment" finished-at="2026-09-03T17:46:47 IST" duration-ms="11725" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Required failed: Error: First Name is required]]>
@@ -57,17 +57,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MakeAppointment -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_03@24569dba]" started-at="2026-09-03T17:40:29 IST" name="close" finished-at="2026-09-03T17:40:29 IST" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_03@24569dba]" started-at="2026-09-03T17:46:47 IST" name="close" finished-at="2026-09-03T17:46:48 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcase.TC_03 -->
       <class name="testcase.TC_02">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_02@8462f31]" started-at="2026-09-03T17:40:14 IST" name="setup" finished-at="2026-09-03T17:40:15 IST" duration-ms="1221" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_02@8462f31]" started-at="2026-09-03T17:46:34 IST" name="setup" finished-at="2026-09-03T17:46:35 IST" duration-ms="850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Buyclothes()[pri:0, instance:testcase.TC_02@8462f31]" started-at="2026-09-03T17:40:15 IST" name="Buyclothes" finished-at="2026-09-03T17:40:16 IST" duration-ms="337" status="FAIL">
+        <test-method signature="Buyclothes()[pri:0, instance:testcase.TC_02@8462f31]" started-at="2026-09-03T17:46:35 IST" name="Buyclothes" finished-at="2026-09-03T17:46:35 IST" duration-ms="271" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Login failed: Epic sadface: Username and password do not match any user in this service]]>
@@ -113,21 +113,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Buyclothes -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_02@8462f31]" started-at="2026-09-03T17:40:16 IST" name="close" finished-at="2026-09-03T17:40:16 IST" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_02@8462f31]" started-at="2026-09-03T17:46:35 IST" name="close" finished-at="2026-09-03T17:46:35 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcase.TC_02 -->
       <class name="testcase.TC_01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_01@75437611]" started-at="2026-09-03T17:40:00 IST" name="setup" finished-at="2026-09-03T17:40:02 IST" duration-ms="1912" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_01@75437611]" started-at="2026-09-03T17:46:20 IST" name="setup" finished-at="2026-09-03T17:46:22 IST" duration-ms="1679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MakeAppointment()[pri:0, instance:testcase.TC_01@75437611]" started-at="2026-09-03T17:40:02 IST" name="MakeAppointment" finished-at="2026-09-03T17:40:14 IST" duration-ms="12103" status="PASS">
+        <test-method signature="MakeAppointment()[pri:0, instance:testcase.TC_01@75437611]" started-at="2026-09-03T17:46:22 IST" name="MakeAppointment" finished-at="2026-09-03T17:46:34 IST" duration-ms="11865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MakeAppointment -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_01@75437611]" started-at="2026-09-03T17:40:14 IST" name="close" finished-at="2026-09-03T17:40:14 IST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_01@75437611]" started-at="2026-09-03T17:46:34 IST" name="close" finished-at="2026-09-03T17:46:34 IST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
