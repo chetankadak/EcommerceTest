@@ -1,0 +1,1 @@
+{"uuid":"0e5a337d-4199-482f-87aa-7f636ff961e7","name":"testcase.TC_03.setup","children":["c35f5cc9-9e32-428d-a216-707f32edfe09"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1788519507235,"stop":1788519508118}],"afters":[],"start":1788519507235,"stop":1788519508118}
