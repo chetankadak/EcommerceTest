@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="19.906" tests="3" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="14.216" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/altius/Documents/Gitrepos/EcommerceTest/target/surefire/surefirebooter-20260904132125150_3.jar /home/altius/Documents/Gitrepos/EcommerceTest/target/surefire 2026-09-04T13-21-25_051-jvmRun1 surefire-20260904132125150_1tmp surefire_0-20260904132125150_2tmp"/>
+    <property name="sun.java.command" value="/home/altius/Documents/Gitrepos/EcommerceTest/target/surefire/surefirebooter-20260904150452112_3.jar /home/altius/Documents/Gitrepos/EcommerceTest/target/surefire 2026-09-04T15-04-52_043-jvmRun1 surefire-20260904150452112_1tmp surefire_0-20260904150452112_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/altius/Documents/Gitrepos/EcommerceTest/target/test-classes:/home/altius/Documents/Gitrepos/EcommerceTest/target/classes:/home/altius/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/home/altius/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/altius/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/home/altius/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/altius/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar:/home/altius/.m2/repository/io/qameta/allure/allure-testng/2.35.4/allure-testng-2.35.4.jar:/home/altius/.m2/repository/io/qameta/allure/allure-java-commons/2.35.4/allure-java-commons-2.35.4.jar:/home/altius/.m2/repository/io/qameta/allure/allure-model/2.35.4/allure-model-2.35.4.jar:/home/altius/.m2/repository/io/qameta/allure/allure-test-filter/2.35.4/allure-test-filter-2.35.4.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-java/4.47.0/selenium-java-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-api/4.47.0/selenium-api-4.47.0.jar:/home/altius/.m2/repository/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.47.0/selenium-chrome-driver-4.47.0.jar:/home/altius/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.47.0/selenium-chromium-driver-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-json/4.47.0/selenium-json-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.47.0/selenium-manager-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-devtools-latest/4.47.0/selenium-devtools-latest-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v149/4.47.0/selenium-devtools-v149-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v150/4.47.0/selenium-devtools-v150-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v151/4.47.0/selenium-devtools-v151-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.47.0/selenium-edge-driver-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.47.0/selenium-firefox-driver-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-http/4.47.0/selenium-http-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.47.0/selenium-ie-driver-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.47.0/selenium-remote-driver-4.47.0.jar:/home/altius/.m2/repository/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/home/altius/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/altius/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/altius/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-api/1.65.0/opentelemetry-api-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-context/1.65.0/opentelemetry-context-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-common/1.65.0/opentelemetry-common-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.65.0/opentelemetry-exporter-logging-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.65.0/opentelemetry-sdk-common-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.65.0/opentelemetry-sdk-extension-autoconfigure-spi-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.65.0/opentelemetry-sdk-extension-autoconfigure-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.65.0/opentelemetry-sdk-trace-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.65.0/opentelemetry-sdk-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.65.0/opentelemetry-sdk-metrics-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.65.0/opentelemetry-sdk-logs-1.65.0.jar:/home/altius/.m2/repository/net/bytebuddy/byte-buddy/1.18.11/byte-buddy-1.18.11.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-os/4.47.0/selenium-os-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.47.0/selenium-safari-driver-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-support/4.47.0/selenium-support-4.47.0.jar:/home/altius/.m2/repository/tools/jackson/core/jackson-databind/3.2.2/jackson-databind-3.2.2.jar:/home/altius/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.22/jackson-annotations-2.22.jar:/home/altius/.m2/repository/tools/jackson/core/jackson-core/3.2.2/jackson-core-3.2.2.jar:/home/altius/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/home/altius/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/home/altius/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/home/altius/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/altius/.m2/repository/io/github/bonigarcia/webdrivermanager/6.3.4/webdrivermanager-6.3.4.jar:/home/altius/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/home/altius/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/home/altius/.m2/repository/com/github/docker-java/docker-java/3.7.1/docker-java-3.7.1.jar:/home/altius/.m2/repository/com/github/docker-java/docker-java-core/3.7.1/docker-java-core-3.7.1.jar:/home/altius/.m2/repository/com/github/docker-java/docker-java-api/3.7.1/docker-java-api-3.7.1.jar:/home/altius/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.20.1/jackson-databind-2.20.1.jar:/home/altius/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.20.1/jackson-core-2.20.1.jar:/home/altius/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/altius/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.7.1/docker-java-transport-httpclient5-3.7.1.jar:/home/altius/.m2/repository/com/github/docker-java/docker-java-transport/3.7.1/docker-java-transport-3.7.1.jar:/home/altius/.m2/repository/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar:/home/altius/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/altius/.m2/repository/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/home/altius/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/home/altius/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.6/httpclient5-5.6.jar:/home/altius/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar:/home/altius/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar:/home/altius/.m2/repository/org/apache/poi/poi/5.5.1/poi-5.5.1.jar:/home/altius/.m2/repository/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar:/home/altius/.m2/repository/org/apache/commons/commons-collections4/4.5.0/commons-collections4-4.5.0.jar:/home/altius/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/altius/.m2/repository/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar:/home/altius/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/home/altius/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/home/altius/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/home/altius/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/home/altius/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/home/altius/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/home/altius/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/altius/Documents/Gitrepos/EcommerceTest/target/surefire/surefirebooter-20260904132125150_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/altius/Documents/Gitrepos/EcommerceTest/target/surefire/surefirebooter-20260904150452112_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11+10-1-24.04.2-Ubuntu"/>
     <property name="user.name" value="altius"/>
@@ -54,7 +54,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="MakeAppointment" classname="testcase.TC_01" time="12.243">
+  <testcase name="MakeAppointment" classname="testcase.TC_01" time="12.139">
     <system-out><![CDATA[Result startedMakeAppointment
 login successfull
 Result SuccessMakeAppointment
@@ -63,87 +63,5 @@ Result SuccessMakeAppointment
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
-  </testcase>
-  <testcase name="Buyclothes" classname="testcase.TC_02" time="0.57">
-    <failure message="Login failed: Epic sadface: Username and password do not match any user in this service" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login failed: Epic sadface: Username and password do not match any user in this service
-	at org.testng.Assert.fail(Assert.java:111)
-	at Pages.login.verifyLoginSuccessful(login.java:37)
-	at testcase.TC_02.Buyclothes(TC_02.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[Result startedBuyclothes
-Test Failed: Buyclothes
-Screenshot saved at: /home/altius/Documents/Gitrepos/EcommerceTest/test-output/screenshots/1788508302063.png
-]]></system-out>
-  </testcase>
-  <testcase name="MakeAppointment" classname="testcase.TC_03" time="1.89">
-    <failure message="Required failed: Error: First Name is required" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Required failed: Error: First Name is required
-	at org.testng.Assert.fail(Assert.java:111)
-	at Pages.SelectItem.RequiredDetails(SelectItem.java:73)
-	at testcase.TC_03.MakeAppointment(TC_03.java:68)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[Result startedMakeAppointment
-Test Failed: MakeAppointment
-Screenshot saved at: /home/altius/Documents/Gitrepos/EcommerceTest/test-output/screenshots/1788508305225.png
-]]></system-out>
   </testcase>
 </testsuite>
