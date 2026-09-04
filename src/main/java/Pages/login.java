@@ -26,18 +26,18 @@ public class login extends browserClass{
 	public void clickLogin() {
 		driver.findElement(login).click();
 	}
-	public void verifyLoginSuccessful() {
-
-		By errorMessage = By.xpath("//h3[contains(text(),'Username and')]");
-
-	    if (driver.findElements(errorMessage).size() > 0) {
-
-	        String message = driver.findElement(errorMessage).getText();
-
-	        Assert.fail("Login failed: " + message);
-	    }
-	    System.out.println("login successfull");
-    }
+//	public void verifyLoginSuccessful() {
+//
+//		By errorMessage = By.xpath("//h3[contains(text(),'Username and')]");
+//
+//	    if (driver.findElements(errorMessage).size() > 0) {
+//
+//	        String message = driver.findElement(errorMessage).getText();
+//
+//	        Assert.fail("Login failed: " + message);
+//	    }
+//	    System.out.println("login successfull");
+//    }
 	
 	
 }

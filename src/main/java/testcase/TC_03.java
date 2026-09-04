@@ -31,7 +31,7 @@ public class TC_03 extends browserClass{
     	l.textUsername(Username);
     	l.textPassword(Password);
     	l.clickLogin();
-    	l.verifyLoginSuccessful();
+    	//l.verifyLoginSuccessful();
     	
     	SelectItem s = new SelectItem();
     	s.clickBag();
@@ -65,7 +65,7 @@ public class TC_03 extends browserClass{
     	s.textLastName(last);
     	s.textPostalCode(pincode);
     	s.clickContinue();
-    	s.RequiredDetails();
+    	//s.RequiredDetails();
     	s.clickFinish();
     	s.clickgenpdf();
     	

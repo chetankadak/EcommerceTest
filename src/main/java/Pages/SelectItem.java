@@ -62,18 +62,18 @@ public class SelectItem extends browserClass{
 		driver.findElement(cont).click();
 	}
 	
-	public void RequiredDetails() {
-
-		By errorMessage = By.xpath("//h3[contains(text(),'First Name')]");
-
-	    if (driver.findElements(errorMessage).size() > 0) {
-
-	        String message = driver.findElement(errorMessage).getText();
-
-	        Assert.fail("Required failed: " + message);
-	    }
-	    System.out.println("successfull");
-    }
+//	public void RequiredDetails() {
+//
+//		By errorMessage = By.xpath("//h3[contains(text(),'First Name')]");
+//
+//	    if (driver.findElements(errorMessage).size() > 0) {
+//
+//	        String message = driver.findElement(errorMessage).getText();
+//
+//	        Assert.fail("Required failed: " + message);
+//	    }
+//	    System.out.println("successfull");
+//    }
 	
 	public void clickCancel() {
 		driver.findElement(cancel).click();

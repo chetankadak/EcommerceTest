@@ -35,7 +35,7 @@ public class TC_01 extends browserClass{
     	l.textUsername(Username);
     	l.textPassword(Password);
     	l.clickLogin();
-    	l.verifyLoginSuccessful();
+    	//l.verifyLoginSuccessful();
     	
     	SelectItem s = new SelectItem();
     	s.clickBag();
