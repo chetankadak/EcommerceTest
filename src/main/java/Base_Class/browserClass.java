@@ -44,12 +44,12 @@ public class browserClass {
 		driver.get(url);
 		break;
 		
-//		case "firefox":
-//		WebDriverManager.firefoxdriver().setup();
-//		FirefoxOptions opt = new FirefoxOptions();
-//        driver = new FirefoxDriver(opt);
-//		driver.get(url);
-//		break;
+		case "firefox":
+		WebDriverManager.firefoxdriver().setup();
+		FirefoxOptions opt = new FirefoxOptions();
+        driver = new FirefoxDriver(opt);
+		driver.get(url);
+		break;
 		}
 		
 		driver.manage().window().maximize();
