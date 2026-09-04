@@ -9,10 +9,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import Base_Class.browserClass;
-
-import Pages.login;
-
 import Pages.SelectItem;
+import Pages.login;
 import io.qameta.allure.Description;
 import utility.JsonUtils;
 

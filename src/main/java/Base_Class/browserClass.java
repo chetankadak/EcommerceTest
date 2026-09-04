@@ -7,13 +7,13 @@ import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utility.ConfigReader;
-import utility.ConfigReader;
+
 public class browserClass {
 
 	public static String Browser= ConfigReader.getProperty("browser");
@@ -44,12 +44,12 @@ public class browserClass {
 		driver.get(url);
 		break;
 		
-		case "firefox":
-		WebDriverManager.firefoxdriver().setup();
-		FirefoxOptions opt = new FirefoxOptions();
-        driver = new FirefoxDriver(opt);
-		driver.get(url);
-		break;
+//		case "firefox":
+//		WebDriverManager.firefoxdriver().setup();
+//		FirefoxOptions opt = new FirefoxOptions();
+//        driver = new FirefoxDriver(opt);
+//		driver.get(url);
+//		break;
 		}
 		
 		driver.manage().window().maximize();
