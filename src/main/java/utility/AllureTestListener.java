@@ -20,36 +20,36 @@ public class AllureTestListener implements ITestListener{
 		
 
 		
-//		String timestamp = LocalDateTime.now()
-//	            .format(DateTimeFormatter.ofPattern("dd-MM-yyyy_HH-mm-ss"));
-//
-//	    String fileName = "allure-results/" + timestamp + ".txt";
-//
-//	    try {
-//
-//	        File folder = new File("allure-results");
-//
-//	        if (!folder.exists()) {
-//	            folder.mkdirs();
-//	        }
-//
-//	        File file = new File(fileName);
-//
-//	        FileWriter writer = new FileWriter(file);
-//
-//	        writer.write(
-//	                "Test Case: "
-//	                + result.getMethod().getMethodName()
-//	                + System.lineSeparator()
-//	                + "Execution Time: "
-//	                + timestamp
-//	        );
-//
-//	        writer.close();
-//
-//	    } catch (IOException e) {
-//	        e.printStackTrace();
-//	    }
+		String timestamp = LocalDateTime.now()
+	            .format(DateTimeFormatter.ofPattern("dd-MM-yyyy_HH-mm-ss"));
+
+	    String fileName = "allure-results/" + timestamp + ".txt";
+
+	    try {
+
+	        File folder = new File("allure-results");
+
+	        if (!folder.exists()) {
+	            folder.mkdirs();
+	        }
+
+	        File file = new File(fileName);
+
+	        FileWriter writer = new FileWriter(file);
+
+	        writer.write(
+	                "Test Case: "
+	                + result.getMethod().getMethodName()
+	                + System.lineSeparator()
+	                + "Execution Time: "
+	                + timestamp
+	        );
+
+	        writer.close();
+
+	    } catch (IOException e) {
+	        e.printStackTrace();
+	    }
 		
 		
 		System.out.println("Result started" + result.getName());

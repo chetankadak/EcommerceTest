@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-04T11:19:40 IST" name="Suite" finished-at="2026-09-04T11:20:07 IST" duration-ms="27799">
+  <suite started-at="2026-09-04T12:00:21 IST" name="Suite" finished-at="2026-09-04T12:00:49 IST" duration-ms="27736">
     <groups>
     </groups>
-    <test started-at="2026-09-04T11:19:40 IST" name="Test" finished-at="2026-09-04T11:20:07 IST" duration-ms="27799">
+    <test started-at="2026-09-04T12:00:21 IST" name="Test" finished-at="2026-09-04T12:00:49 IST" duration-ms="27736">
       <class name="testcase.TC_03">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_03@7d900ecf]" started-at="2026-09-04T11:19:55 IST" name="setup" finished-at="2026-09-04T11:19:56 IST" duration-ms="832" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_03@7d900ecf]" started-at="2026-09-04T12:00:36 IST" name="setup" finished-at="2026-09-04T12:00:37 IST" duration-ms="985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MakeAppointment()[pri:0, instance:testcase.TC_03@7d900ecf]" started-at="2026-09-04T11:19:56 IST" name="MakeAppointment" finished-at="2026-09-04T11:20:07 IST" duration-ms="11502" status="FAIL">
+        <test-method signature="MakeAppointment()[pri:0, instance:testcase.TC_03@7d900ecf]" started-at="2026-09-04T12:00:37 IST" name="MakeAppointment" finished-at="2026-09-04T12:00:49 IST" duration-ms="11667" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Required failed: Error: First Name is required]]>
@@ -55,17 +55,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MakeAppointment -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_03@7d900ecf]" started-at="2026-09-04T11:20:07 IST" name="close" finished-at="2026-09-04T11:20:07 IST" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_03@7d900ecf]" started-at="2026-09-04T12:00:49 IST" name="close" finished-at="2026-09-04T12:00:49 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcase.TC_03 -->
       <class name="testcase.TC_02">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_02@5c80cf32]" started-at="2026-09-04T11:19:54 IST" name="setup" finished-at="2026-09-04T11:19:55 IST" duration-ms="873" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_02@5c80cf32]" started-at="2026-09-04T12:00:35 IST" name="setup" finished-at="2026-09-04T12:00:36 IST" duration-ms="978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Buyclothes()[pri:0, instance:testcase.TC_02@5c80cf32]" started-at="2026-09-04T11:19:55 IST" name="Buyclothes" finished-at="2026-09-04T11:19:55 IST" duration-ms="281" status="FAIL">
+        <test-method signature="Buyclothes()[pri:0, instance:testcase.TC_02@5c80cf32]" started-at="2026-09-04T12:00:36 IST" name="Buyclothes" finished-at="2026-09-04T12:00:36 IST" duration-ms="341" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Login failed: Epic sadface: Username and password do not match any user in this service]]>
@@ -109,21 +109,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Buyclothes -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_02@5c80cf32]" started-at="2026-09-04T11:19:55 IST" name="close" finished-at="2026-09-04T11:19:55 IST" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_02@5c80cf32]" started-at="2026-09-04T12:00:36 IST" name="close" finished-at="2026-09-04T12:00:36 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcase.TC_02 -->
       <class name="testcase.TC_01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_01@59402b8f]" started-at="2026-09-04T11:19:40 IST" name="setup" finished-at="2026-09-04T11:19:42 IST" duration-ms="1840" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC_01@59402b8f]" started-at="2026-09-04T12:00:21 IST" name="setup" finished-at="2026-09-04T12:00:23 IST" duration-ms="1354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MakeAppointment()[pri:0, instance:testcase.TC_01@59402b8f]" started-at="2026-09-04T11:19:42 IST" name="MakeAppointment" finished-at="2026-09-04T11:19:54 IST" duration-ms="11985" status="PASS">
+        <test-method signature="MakeAppointment()[pri:0, instance:testcase.TC_01@59402b8f]" started-at="2026-09-04T12:00:23 IST" name="MakeAppointment" finished-at="2026-09-04T12:00:35 IST" duration-ms="11957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MakeAppointment -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_01@59402b8f]" started-at="2026-09-04T11:19:54 IST" name="close" finished-at="2026-09-04T11:19:54 IST" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcase.TC_01@59402b8f]" started-at="2026-09-04T12:00:35 IST" name="close" finished-at="2026-09-04T12:00:35 IST" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

@@ -24,7 +24,7 @@ public class browserClass {
 	public static void browser(String Browser, String url) {
 		switch(Browser) {
 		case "chrome":
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless=new");
@@ -45,7 +45,7 @@ public class browserClass {
 		break;
 		
 		case "firefox":
-		WebDriverManager.firefoxdriver().setup();
+		//WebDriverManager.firefoxdriver().setup();
 		FirefoxOptions opt = new FirefoxOptions();
         driver = new FirefoxDriver(opt);
 		driver.get(url);
