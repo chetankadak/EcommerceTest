@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="27.741" tests="3" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="19.906" tests="3" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/altius/Documents/Gitrepos/EcommerceTest/target/surefire/surefirebooter-20260904130203480_3.jar /home/altius/Documents/Gitrepos/EcommerceTest/target/surefire 2026-09-04T13-02-03_372-jvmRun1 surefire-20260904130203480_1tmp surefire_0-20260904130203480_2tmp"/>
+    <property name="sun.java.command" value="/home/altius/Documents/Gitrepos/EcommerceTest/target/surefire/surefirebooter-20260904132125150_3.jar /home/altius/Documents/Gitrepos/EcommerceTest/target/surefire 2026-09-04T13-21-25_051-jvmRun1 surefire-20260904132125150_1tmp surefire_0-20260904132125150_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/altius/Documents/Gitrepos/EcommerceTest/target/test-classes:/home/altius/Documents/Gitrepos/EcommerceTest/target/classes:/home/altius/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/home/altius/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/altius/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/home/altius/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/altius/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar:/home/altius/.m2/repository/io/qameta/allure/allure-testng/2.35.4/allure-testng-2.35.4.jar:/home/altius/.m2/repository/io/qameta/allure/allure-java-commons/2.35.4/allure-java-commons-2.35.4.jar:/home/altius/.m2/repository/io/qameta/allure/allure-model/2.35.4/allure-model-2.35.4.jar:/home/altius/.m2/repository/io/qameta/allure/allure-test-filter/2.35.4/allure-test-filter-2.35.4.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-java/4.47.0/selenium-java-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-api/4.47.0/selenium-api-4.47.0.jar:/home/altius/.m2/repository/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.47.0/selenium-chrome-driver-4.47.0.jar:/home/altius/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.47.0/selenium-chromium-driver-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-json/4.47.0/selenium-json-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.47.0/selenium-manager-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-devtools-latest/4.47.0/selenium-devtools-latest-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v149/4.47.0/selenium-devtools-v149-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v150/4.47.0/selenium-devtools-v150-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v151/4.47.0/selenium-devtools-v151-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.47.0/selenium-edge-driver-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.47.0/selenium-firefox-driver-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-http/4.47.0/selenium-http-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.47.0/selenium-ie-driver-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.47.0/selenium-remote-driver-4.47.0.jar:/home/altius/.m2/repository/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/home/altius/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/altius/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/altius/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-api/1.65.0/opentelemetry-api-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-context/1.65.0/opentelemetry-context-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-common/1.65.0/opentelemetry-common-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.65.0/opentelemetry-exporter-logging-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.65.0/opentelemetry-sdk-common-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.65.0/opentelemetry-sdk-extension-autoconfigure-spi-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.65.0/opentelemetry-sdk-extension-autoconfigure-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.65.0/opentelemetry-sdk-trace-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.65.0/opentelemetry-sdk-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.65.0/opentelemetry-sdk-metrics-1.65.0.jar:/home/altius/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.65.0/opentelemetry-sdk-logs-1.65.0.jar:/home/altius/.m2/repository/net/bytebuddy/byte-buddy/1.18.11/byte-buddy-1.18.11.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-os/4.47.0/selenium-os-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.47.0/selenium-safari-driver-4.47.0.jar:/home/altius/.m2/repository/org/seleniumhq/selenium/selenium-support/4.47.0/selenium-support-4.47.0.jar:/home/altius/.m2/repository/tools/jackson/core/jackson-databind/3.2.2/jackson-databind-3.2.2.jar:/home/altius/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.22/jackson-annotations-2.22.jar:/home/altius/.m2/repository/tools/jackson/core/jackson-core/3.2.2/jackson-core-3.2.2.jar:/home/altius/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/home/altius/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/home/altius/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/home/altius/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/altius/.m2/repository/io/github/bonigarcia/webdrivermanager/6.3.4/webdrivermanager-6.3.4.jar:/home/altius/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/home/altius/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/home/altius/.m2/repository/com/github/docker-java/docker-java/3.7.1/docker-java-3.7.1.jar:/home/altius/.m2/repository/com/github/docker-java/docker-java-core/3.7.1/docker-java-core-3.7.1.jar:/home/altius/.m2/repository/com/github/docker-java/docker-java-api/3.7.1/docker-java-api-3.7.1.jar:/home/altius/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.20.1/jackson-databind-2.20.1.jar:/home/altius/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.20.1/jackson-core-2.20.1.jar:/home/altius/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/altius/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.7.1/docker-java-transport-httpclient5-3.7.1.jar:/home/altius/.m2/repository/com/github/docker-java/docker-java-transport/3.7.1/docker-java-transport-3.7.1.jar:/home/altius/.m2/repository/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar:/home/altius/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/altius/.m2/repository/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/home/altius/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/home/altius/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.6/httpclient5-5.6.jar:/home/altius/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar:/home/altius/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar:/home/altius/.m2/repository/org/apache/poi/poi/5.5.1/poi-5.5.1.jar:/home/altius/.m2/repository/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar:/home/altius/.m2/repository/org/apache/commons/commons-collections4/4.5.0/commons-collections4-4.5.0.jar:/home/altius/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/altius/.m2/repository/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar:/home/altius/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/home/altius/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/home/altius/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/home/altius/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/home/altius/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/home/altius/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/home/altius/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/altius/Documents/Gitrepos/EcommerceTest/target/surefire/surefirebooter-20260904130203480_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/altius/Documents/Gitrepos/EcommerceTest/target/surefire/surefirebooter-20260904132125150_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11+10-1-24.04.2-Ubuntu"/>
     <property name="user.name" value="altius"/>
@@ -54,8 +54,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="MakeAppointment" classname="testcase.TC_01" time="1.737">
+  <testcase name="MakeAppointment" classname="testcase.TC_01" time="12.243">
     <system-out><![CDATA[Result startedMakeAppointment
+login successfull
 Result SuccessMakeAppointment
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
@@ -63,30 +64,11 @@ SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="Buyclothes" classname="testcase.TC_02" time="10.395">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;add-to-cart-sauce-labs-backpack&apos;]&quot;}&#10;  (Session info: chrome=151.0.7922.137)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;7.0.0-28-generic&apos;, java.version: &apos;21.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c6c28f6264292557ef3c8ec8de1e97a4, findElement {using=xpath, value=//button[@id=&apos;add-to-cart-sauce-labs-backpack&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36247}, goog:processID: 1439633, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36247/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c6c28f6264292557ef3c8ec8de1e97a4" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-backpack']"}
-  (Session info: chrome=151.0.7922.137)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '7.0.0-28-generic', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c6c28f6264292557ef3c8ec8de1e97a4, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36247}, goog:processID: 1439633, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36247/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c6c28f6264292557ef3c8ec8de1e97a4
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at Pages.SelectItem.clickBag(SelectItem.java:30)
-	at testcase.TC_02.Buyclothes(TC_02.java:38)
+  <testcase name="Buyclothes" classname="testcase.TC_02" time="0.57">
+    <failure message="Login failed: Epic sadface: Username and password do not match any user in this service" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login failed: Epic sadface: Username and password do not match any user in this service
+	at org.testng.Assert.fail(Assert.java:111)
+	at Pages.login.verifyLoginSuccessful(login.java:37)
+	at testcase.TC_02.Buyclothes(TC_02.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -120,33 +102,14 @@ Session ID: c6c28f6264292557ef3c8ec8de1e97a4
 ]]></failure>
     <system-out><![CDATA[Result startedBuyclothes
 Test Failed: Buyclothes
-Screenshot saved at: /home/altius/Documents/Gitrepos/EcommerceTest/test-output/screenshots/1788507138821.png
+Screenshot saved at: /home/altius/Documents/Gitrepos/EcommerceTest/test-output/screenshots/1788508302063.png
 ]]></system-out>
   </testcase>
-  <testcase name="MakeAppointment" classname="testcase.TC_03" time="11.555">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#finish&quot;}&#10;  (Session info: chrome=151.0.7922.137)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;7.0.0-28-generic&apos;, java.version: &apos;21.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [0c3175b373393feaaaa89711d056f988, findElement {using=id, value=finish}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40539}, goog:processID: 1439919, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:40539/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0c3175b373393feaaaa89711d056f988" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
-  (Session info: chrome=151.0.7922.137)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '7.0.0-28-generic', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0c3175b373393feaaaa89711d056f988, findElement {using=id, value=finish}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40539}, goog:processID: 1439919, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:40539/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0c3175b373393feaaaa89711d056f988
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at Pages.SelectItem.clickFinish(SelectItem.java:92)
-	at testcase.TC_03.MakeAppointment(TC_03.java:69)
+  <testcase name="MakeAppointment" classname="testcase.TC_03" time="1.89">
+    <failure message="Required failed: Error: First Name is required" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Required failed: Error: First Name is required
+	at org.testng.Assert.fail(Assert.java:111)
+	at Pages.SelectItem.RequiredDetails(SelectItem.java:73)
+	at testcase.TC_03.MakeAppointment(TC_03.java:68)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -180,7 +143,7 @@ Session ID: 0c3175b373393feaaaa89711d056f988
 ]]></failure>
     <system-out><![CDATA[Result startedMakeAppointment
 Test Failed: MakeAppointment
-Screenshot saved at: /home/altius/Documents/Gitrepos/EcommerceTest/test-output/screenshots/1788507151340.png
+Screenshot saved at: /home/altius/Documents/Gitrepos/EcommerceTest/test-output/screenshots/1788508305225.png
 ]]></system-out>
   </testcase>
 </testsuite>

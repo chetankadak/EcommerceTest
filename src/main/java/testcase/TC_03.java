@@ -65,7 +65,7 @@ public class TC_03 extends browserClass{
     	s.textLastName(last);
     	s.textPostalCode(pincode);
     	s.clickContinue();
-    	//s.RequiredDetails();
+    	s.RequiredDetails();
     	s.clickFinish();
     	s.clickgenpdf();
     	
