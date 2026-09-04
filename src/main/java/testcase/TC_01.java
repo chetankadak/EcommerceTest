@@ -20,7 +20,7 @@ public class TC_01 extends browserClass{
 
     @BeforeMethod
     public void setup() {
-    	browser( Browser, url);
+    	browsers( Browser, url);
     }
     
    

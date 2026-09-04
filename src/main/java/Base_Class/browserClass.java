@@ -21,7 +21,7 @@ public class browserClass {
 	public static WebDriver driver;
 	
 	
-	public static void browser(String Browser, String url) {
+	public static void browsers(String Browser, String url) {
 		switch(Browser) {
 		case "chrome":
 		//WebDriverManager.chromedriver().setup();
@@ -32,6 +32,7 @@ public class browserClass {
 		options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--disable-gpu");
 		options.addArguments("--window-size=1920,1080");
+		
 		
 
         Map<String, Object> prefs = new HashMap<>();
